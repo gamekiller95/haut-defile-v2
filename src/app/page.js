@@ -1,6 +1,7 @@
 'use client';
 
 import { BsArrowRight } from 'react-icons/bs';
+import Link from 'next/link';
 
 export default function HomePage() {
   const arrivals = [
@@ -55,15 +56,17 @@ export default function HomePage() {
             Export Quality • Dhaka Atelier
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="group px-12 py-4 text-xs uppercase tracking-widest border border-white hover:border-amber-400 hover:bg-amber-400 hover:text-black transition-all duration-500">
-              Shop Collection
-            </button>
-
-            <button className="group px-12 py-4 text-xs uppercase tracking-widest bg-white text-black hover:bg-amber-400 transition-all duration-500">
-              Bulk Inquiry
-            </button>
-          </div>
+<div className="flex flex-col sm:flex-row gap-4 justify-center">
+  <Link href="/products" className="group px-12 py-4 text-xs uppercase tracking-widest border border-white hover:border-amber-400 hover:bg-amber-400 hover:text-black transition-all duration-500 text-center">
+    Shop Collection
+  </Link>
+<Link 
+    href="/bulk-inquiry" 
+    className="group px-12 py-4 text-xs uppercase tracking-widest bg-white text-black hover:bg-amber-400 transition-all duration-500 text-center"
+  >
+    Bulk Inquiry
+  </Link>
+  </div>
         </div>
       </section>
 
