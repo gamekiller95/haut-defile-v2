@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
             <Link href="/" className="hover:text-amber-400 transition">Home</Link>
             <Link href="/products" className="hover:text-amber-400 transition">Products</Link>
             <Link href="/about" className="hover:text-amber-400 transition">About</Link>
-            <Link href="/bulk-order" className="hover:text-amber-400 transition">Bulk</Link>
+            <Link href="/bulk-inquiry" className="hover:text-amber-400 transition">Bulk</Link>
           </div>
 
 {/* Updated Navbar Actions */}
