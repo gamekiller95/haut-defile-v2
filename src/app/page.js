@@ -24,7 +24,7 @@ export default function HomePage() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover grayscale-[35%]"
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-fashion-model-walking-in-a-long-dress-2431-large.mp4" />
+          <source src="" />
         </video>
 
         {/* 2. The Background Image Layer */}
